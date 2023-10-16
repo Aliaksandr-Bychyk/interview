@@ -1,3 +1,7 @@
+# Result
+![image](https://github.com/Aliaksandr-Bychyk/interview/assets/8710436/99bc4f10-b9e9-450b-94f8-d75ead7fb38b)
+
+
 # Практическое задание:
 
 1. Получить данные с endpoint /todos с помощью rtkQuery ( другим методом, если не использовал rtkQuery );
