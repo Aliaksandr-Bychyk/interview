@@ -9,7 +9,7 @@ const App: FC = () => {
   return (
     <>
       <Fragment>Interview Page</Fragment>
-      {error || !isLoading ? <Table data={data} /> : <div>"loading data..."</div>}
+      {error ? <div>Error</div> : !isLoading ? <Table data={data} /> : <div>"loading data..."</div>}
     </>
   );
 };

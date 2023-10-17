@@ -4,7 +4,7 @@ import IData from '../IData';
 const TableRow: FC<IData> = ({completed, title, userId}) => {
   
   const row = [
-    {id: 0, name: completed ? 'Completed' : 'Uncompleted'}, 
+    {id: 0, name: completed}, 
     {id: 1, name: title}, 
     {id: 2, name: userId}
   ];

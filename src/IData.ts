@@ -1,6 +1,6 @@
 export default interface IData {
-  completed: boolean;
+  completed: boolean | string;
   id?: number;
   title: string;
-  userId: number;
+  userId: number | string;
 }
